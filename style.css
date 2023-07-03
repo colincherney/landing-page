@@ -205,3 +205,43 @@ button:hover {
   padding: 100px;
   flex: 1;
 }
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 100px;
+  border: #3882f6 3px solid;
+  height: 100px;
+  width: 600px;
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  gap: 200px;
+}
+
+.container p {
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container button {
+  color: #f9faf8;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  border: #f9faf8 2px solid;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+  cursor: pointer;
+}
