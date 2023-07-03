@@ -96,3 +96,45 @@ img {
 button:hover {
   cursor: pointer;
 }
+
+.heading2 {
+  display: flex;
+  font-size: 36px;
+  font-weight: 900;
+  justify-content: center;
+  padding: 60px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box1 {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.box2 {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.box3 {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.box4 {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
