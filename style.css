@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.rainforest a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.rainforest {
+  display: flex;
+  font-size: 24px;
+  color: #f9faf8;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
+  gap: 30px;
+}
