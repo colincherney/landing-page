@@ -38,3 +38,61 @@
   justify-content: center;
   gap: 30px;
 }
+
+img {
+  width: 700px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+}
+
+.left-side {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 100px;
+  margin: 100px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  margin: 100px;
+}
+
+.mainheader {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  padding: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px;
+}
+
+.donate {
+  display: flex;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
