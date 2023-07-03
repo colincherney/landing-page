@@ -111,6 +111,7 @@ button:hover {
   gap: 30px;
   font-family: "Agdasima", sans-serif;
   font-size: 28px;
+  margin-bottom: 400px;
 }
 
 .box1 {
@@ -187,4 +188,20 @@ button:hover {
 .box4 p {
   text-align: center;
   padding: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+}
+
+.quote p {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  flex: 1;
 }
